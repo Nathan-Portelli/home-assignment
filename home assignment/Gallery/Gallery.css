@@ -1,0 +1,168 @@
+body {
+    margin: 0%;
+    /* to remove some margin that was given by default */
+}
+
+header {
+    width: 100%;
+
+    float: left;
+
+    background: rgb(13, 5, 103);
+}
+
+header h1 {
+    /* ONLY select the h1 that is INSIDE the header */
+    font-size: 4em;
+    /* the default size of h1 is 22em, now we are DOUBLING the original size */
+}
+
+header img {
+    /* position: absolute; */
+
+    /* margin-right: 10px; */
+
+    /* margin: auto 5px; */
+
+    float: left;
+
+    width: 4%;
+
+    padding-top: 18px;
+
+    padding-left: 10px;
+
+
+
+}
+
+#navigation {
+    /* padding-top: 1%; */
+    padding-bottom: 1%;
+}
+
+nav {
+    color: #ffe600;
+    float: left;
+
+    width: 86%;
+
+    padding: 0.4% 0;
+
+    background: rgb(13, 5, 103);
+
+    text-align: center;
+
+
+
+
+    /* margin: 0 auto; */
+    /* to set auto spacing on LEFT & RIGHT but no margin for top & bottom*/
+
+    /* padding-top: 3px; */
+
+    /* padding-bottom: 3px; */
+
+
+}
+
+nav a {
+    /* ONLY choosing links INSIDE the nav */
+    color: rgb(#ffe600);
+
+    text-decoration: none;
+
+    padding-left: 10px;
+
+    padding-right: 10px;
+
+    font-weight: bold;
+
+    /* display: inline-block; */
+
+    line-height: 200%;
+
+    margin: auto;
+
+}
+
+header div {
+    float: left;
+    width: 10%;
+
+    text-align: right;
+
+    /* padding-right: 10px; */
+
+    font-size: small;
+
+    margin-right: 2%;
+
+    padding: 0.067% 0;
+
+    padding-top: 1.6%;
+
+    background: rgb(13, 5, 103);
+}
+
+header div button {
+    background-color: rgb(13, 5, 103);
+
+    background-color: rgb(13, 5, 103);
+
+    box-shadow: 2px 2px black;
+
+    border-color: rgb(13, 5, 103);
+
+    margin: 7% auto;
+
+
+
+}
+
+header div button:first-child {
+    margin-right: 7%;
+}
+
+main {
+    padding: 1.5%;
+    padding-top: 10px;
+
+
+
+
+}
+
+main button {
+    background-color: rgb(13, 5, 103);
+
+    background-color: rgb(13, 5, 103);
+
+    box-shadow: 2px 2px black;
+
+    border-color: rgb(13, 5, 103);
+
+    margin: 7% auto;
+
+    color: #ffe600;
+
+}
+
+main a {
+    padding-left: 11%;
+}
+
+main .Gallery {
+    display: block;
+    height: 250px;
+    width: 100%;
+}
+
+footer {
+    color: rgb(#ffe600);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: rgb(13, 5, 103);
+    text-align: center;
+
+}
